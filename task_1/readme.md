@@ -70,3 +70,16 @@ The final output demonstrates the estimated 3D pose of the box overlaid on the p
 ![alt text](images/result_zoom_2.png)
 
 These visualizations confirm the successful detection and pose estimation of the box based on its geometric features extracted from the depth data. The estimated coordinate frame aligns well with the perceived orientation of the box's top surface.
+
+**Instrcutions to run python file**
+* Install open3d, numpy, opencv, sklearn (for pca)
+
+```
+python pose_estimate.py
+```
+
+* pose matrix will be saved to "estimated_pose.npy"
+
+
+
+
